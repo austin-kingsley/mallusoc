@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Warwick Malayali Society</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/homebox.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/events.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/cooper-hewitt" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <a onclick="location.href='#about'" class="about-link">About</a>
+        <a onclick="location.href='#events'" class="events-link">Events</a>
+        <a onclick="location.href='#contact'" class="contact-link">Contact</a>
+      </div>
+      <div class="right-section">
+        <img onclick="location.href='#'" class="logo" src="./img/logo.png">
+      </div>
+    </div>
+    <div id="home" class="home-box">
+      <div class="greeting">
+        <p class="greeting-text">
+          Welcome to
+          <span class="name">
+            Warwick Malayali Society
+          </span>
+        </p>
+      </div>
+    </div>
+    <div class="body-pattern"></div>
+
+    <div id="about" class="about-section">
+      <div class="about-title">
+        About us
+      </div>
+      <div class="about-body">
+        We're Warwick Malayali Society
+      </div>
+    </div>
+
+    <div id="events" class="events-section">
+      <div class="events-title">
+        Our events
+      </div>
+      <div class="events-abstract">
+        Here are some of our events from the past few years:
+      </div>
+      <div class="carousel-section">
+        <div class="content">
+          <i data-action="left" class='btn-chevron left bx bx-chevron-left'></i>
+          <div class="slider">
+            <img class="slider-image" src="./img/img1.JPG">
+            <img class="slider-image" src="./img/img2.JPG">
+            <img class="slider-image" src="./img/img3.JPG">
+            <img class="slider-image" src="./img/img4.JPG">
+            <img class="slider-image" src="./img/img5.JPG">
+            <img class="slider-image" src="./img/img6.JPG">
+            <img class="slider-image" src="./img/img7.JPG">
+            <img class="slider-image" src="./img/img8.JPG">
+            <img class="slider-image" src="./img/img9.JPG">
+            <img class="slider-image" src="./img/img10.JPG">    
+          </div>
+          <i data-action="right" class='btn-chevron right bx bx-chevron-right'></i>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div id="contact" class="contact-section">
+      <div class="contact-title">
+        Contact us
+      </div>
+      <div class="contact-abstract">
+        Here's how you can get in touch:
+      </div>
+      <div class="contact-body">
+
+
+        <div class="email-div">
+          <div class="tooltip">
+            <button id="email-button" class="email-button" onclick="copyEmail()" onmouseout="hoverCopyEmail()">
+              <i id="envelope-icon" class="fa fa-envelope"></i>
+              <span class="tooltiptext" id="myTooltip">Copy email to clipboard</span>
+            </button>
+          </div>
+        </div>
+                
+        <div class="instagram-div">
+          <div class="tooltip">
+            <a id="instagram-button" onclick="window.open('https://www.instagram.com/warwickmallusoc/','_blank')" class="instagram-button">
+              <i id="instagram-icon" class="fa fa-instagram"></i>
+              <span class="tooltiptext" id="myTooltip">Instagram</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- <div class="header">
+      <div class="left-section">
+        <a onclick="location.href='#'" class="contact-link">Home</a>
+        <a onclick="location.href='#about'" class="about-link">About</a>
+        <a onclick="location.href='#events'" class="events-link">Events</a>
+      </div>
+      <div class="right-section">
+        <img class="logo" src="./img/logo.png">
+      </div>
+    </div> -->
+
+    <div class="header-bottom">
+      <div class="plug">Website designed and written by <a onclick="window.open('https://www.dcs.warwick.ac.uk/~u2049742/austin','_blank')" class="plug-link">Austin Kingsley</a></div>
+    </div>
+
+
+  </body>
+  <script src="js/library"></script>
+  <script src="js/script"></script>
+  <script src="js/myscript"></script>
+</html>

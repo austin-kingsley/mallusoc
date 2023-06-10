@@ -1,0 +1,18 @@
+  .about-section {
+    width: 500px;
+    margin: auto;
+    padding-top: 300px;
+    padding-bottom: 150px;
+    /* background-color: rgb(243, 197, 255); */
+    text-align: center;
+  }
+
+  .about-title {
+    font-family: 'CooperHewittMedium';
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .about-body {
+    font-size: 30px;
+  }

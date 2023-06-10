@@ -1,0 +1,11 @@
+function copyEmail() {
+    navigator.clipboard.writeText("warwick.malayalisoc@gmail.com");
+
+    var tooltip = document.getElementById("myTooltip");
+    tooltip.innerHTML = "Copied email!";
+}
+
+function hoverCopyEmail() {
+    var tooltip = document.getElementById("myTooltip");
+    tooltip.innerHTML = "Copy email to clipboard";
+}

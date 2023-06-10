@@ -1,0 +1,77 @@
+  .contact-section {
+    width: 500px;
+    margin: auto;
+    padding-top: 160px;
+    padding-bottom: 300px;
+    text-align: center;
+  }
+
+  .contact-title {
+    font-family: 'CooperHewittMedium';
+    font-size: 40px;
+    width: 500px;
+    margin-bottom: 10px;
+  }
+
+  .contact-body {
+    font-size: 30px;
+    display: flex;
+    width: 500px;
+    justify-content: center;
+  }
+
+  .email-div, .instagram-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 160px;
+    height: 100px;
+  }
+
+  .email-button, .instagram-button {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 123, 33);
+    border: none;
+    border-radius: 40px;
+    transition-duration: 0.1s, 0.1s, 0.1s, 0.1s, 0.5s;
+    transition-property: font-shadow, height, width, font-size, background-color;
+  }
+
+  .instagram-button {
+    font-size: 40px;
+  }
+
+  .email-button:hover, .instagram-button:hover {
+    font-size: 40px;
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+    cursor: pointer;
+    transition-duration: 0.1s;
+  }
+
+  .instagram-button:hover {
+    font-size: 50px;
+  }
+
+  .email-button:active, .instagram-button:active {
+    box-shadow: 0 0 10px rgb(241, 123, 33);
+    transition-duration: 0.1s;
+  }
+
+  .fa-envelope, .fa-instagram {
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    transition-duration: 0.5s;
+    transition-property: color;
+  }

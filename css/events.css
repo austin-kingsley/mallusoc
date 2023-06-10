@@ -1,0 +1,17 @@
+  .events-section {
+    margin: auto;
+    padding-top: 300px;
+    padding-bottom: 150px;
+    /* background-color: rgb(145, 91, 158); */
+    text-align: center;
+  }
+
+  .events-title {
+    font-family: 'CooperHewittMedium';
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .events-abstract {
+    font-size: 30px;
+  }

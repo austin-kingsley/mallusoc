@@ -1,0 +1,121 @@
+  .header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky; top: 0;
+    z-index: 100;
+    background-color: rgb(241, 123, 33);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+
+  .left-section {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+  }
+
+  .right-section {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-self: center;
+  }
+
+  .logo {
+    height: 40px;
+    padding-right: 10px;
+    transition-duration: 0.1s;
+  }
+
+  .about-link, .about-link:visited {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    /* background-color: rgb(150, 133, 154); */
+    transition-duration: 0.1s, 0.1s, 0.5s;
+    transition-property: text-shadow, font-size, color ;
+  }
+
+  .events-link, .events-link:visited {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    /* background-color: rgb(150, 133, 154); */
+    transition-duration: 0.1s, 0.1s, 0.5s;
+    transition-property: text-shadow, font-size, color ;
+  }
+
+  .contact-link, .contact-link:visited {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    /* background-color: rgb(150, 133, 154); */
+    transition-duration: 0.1s, 0.1s, 0.5s;
+    transition-property: text-shadow, font-size, color ;
+  }
+
+  .about-link:hover, .events-link:hover, .contact-link:hover, .dark-mode-link:hover {
+    cursor: pointer;
+    font-size: 24px;
+    transition-duration: 0.1s;
+  }
+
+  .logo:hover {
+    cursor: pointer;
+    height: 45px;
+    padding: 7.5px;
+    transition-duration: 0.1s;
+  }
+
+  .about-link:active, .events-link:active, .contact-link:active, .dark-mode-link:active {
+    transition-duration: 0.1s;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  .logo:active {
+    transition-duration: 0.1s;
+    -webkit-filter: drop-shadow(0px 0px 2.5px rgb(255, 77, 0));
+    filter: drop-shadow(0px 0px 2.5px rgb(255, 77, 0));
+  }
+
+  .header-bottom {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 101;
+    background-color: rgb(241, 123, 33);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+
+  .plug {
+    font-size: 15px;
+  }
+
+  .plug-link {
+    font-size: 15px;
+  }
+
+  .plug-link:hover {
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }

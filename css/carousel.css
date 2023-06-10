@@ -1,0 +1,62 @@
+.content {
+    position: relative;
+    width: 750px;
+    height: 500px;
+    align-self: center;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+.slider {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all 0.75s;
+}
+
+.slider-image {
+    opacity: 1;
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    transition: 1s;
+}
+
+.slider-image-active {
+    opacity: 1;
+}
+
+.btn-chevron {
+    position: absolute;
+    bottom: 50%;
+    top: 50%;
+    z-index: 999;
+    font-size: 3rem;
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    border-radius: 20px;
+    transform: translate(0px, -105px);
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.left {
+    left: 1rem;
+}
+.right {
+    right: 1rem;
+}
+
+.carousel-section {
+    width: 750px;
+    display: flex;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
