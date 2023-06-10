@@ -1,1 +1,1 @@
-# mallusoc
+# Website for Warwick Malayalee Society
